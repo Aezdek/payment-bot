@@ -3,6 +3,10 @@ const { Routes } = require("discord-api-types/v9");
 const fs = require("fs");
 require("dotenv").config();
 
+if (!process.env.client_id || process.env.client_id == "0000000000000000000") {
+  console.error("Client ID not set\n\nBot exiting");
+  process.exit(111);
+}
 const clientId = process.env.client_id;
 
 module.exports = (client) => {
