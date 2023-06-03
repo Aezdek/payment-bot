@@ -2,7 +2,7 @@
 ### Why use this bot?
 Do you forget your payment info or just do not want to remember it?
 ##### Its easy with Aezdek's Payment bot
-The `bot` remembers all your **`payment`** information, therefore providing a `reliable and ease to use experience`
+The `bot` remembers all your **`payment`** information, therefore providing a `reliable and easy to use experience`
 
 ### Seting up the bot
 Goto **terminal/cmd** and execute the following
